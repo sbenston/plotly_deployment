@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
@@ -19,13 +20,23 @@
       </div>
     </div>
     <div class="row">
+      <div class="panel">
+        <div class="panel-heading">
+          <h2 class="text-center">About This Project</h2>
+        </div>
+        <div class="panel-body ">
+          <p class="lead">This is a collection of information gathered about the bacteria cultures found in volunteers' navel for the purposes of identifying potential strains of bacteria that synthesize proteins that can emulate the flavor of meat. The plots provided visualize both the 10 most populous bacteria cultures found in the belly button samples as well as the total number of each culture visualized by the relative size of bubbles. Additionally, the frequency at which volunteers washed their belly buttons is given.<br><br>The charts provided are plotted by their Operational taxonomic unit (OTU) identifaction numbers; for specifics on the label please mouseover for the full OTU label.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-md-2">
         <div class="well">
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
-        <div class="panel panel-primary">
+        <div class="panel">
           <div class="panel-heading">
             <h3 class="panel-title">Demographic Info</h3>
           </div>
@@ -34,6 +45,7 @@
       </div>
       <div class="col-md-5">
         <div id="bar"></div>
+        <figcaption></figcaption>
       </div>
       <div class="col-md-5">
         <div id="gauge"></div>

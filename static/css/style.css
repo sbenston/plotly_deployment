@@ -1,0 +1,24 @@
+body {
+    background-color: #ececec;
+}
+
+.jumbotron {
+    background-image: url("../images/bacteria-808751_960_720.jpg");
+    background-size: 100%;
+    color: #09e276;
+    text-shadow: #000 -1px 0, #000 0 1px, #000 1px 0, #000 0 -1px;
+}
+
+.panel {
+    background-color: #f5f5f5;
+}
+
+.panel-heading {
+    background-color: #383838;
+    border-radius: 4px 4px 0 0;
+    color: white;
+}
+
+.col-md-5 {
+    margin-bottom: 30px;
+}
